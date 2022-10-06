@@ -4,7 +4,6 @@
         <meta charset="utf-8">
         <title>
             <?php
-                $id = $_GET['id'] ?? 'HTML';
                 if(isset($_GET['id'])) {
                     echo $_GET['id'];
                 } else {
